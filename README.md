@@ -36,6 +36,10 @@ Acceptable uses for `id` include:
 - Assigning form labels to inputs
 - Jump links between sections of a page
 
+```
+<div class="carousel" id="js-carousel"> ... </div>
+```
+
 # CSS Formatting
 ## Capitalization
 Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
