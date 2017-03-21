@@ -207,6 +207,3 @@ Ain't nobody got time or use for this. Don't bother adding a table of contents i
 
 ## Device Support
 - All mobile, tablet, laptop and desktop devices 320px wide and greater.
-
-
-**On Windows**
