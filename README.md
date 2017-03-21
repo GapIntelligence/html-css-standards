@@ -195,4 +195,18 @@ Ain't nobody got time or use for this. Don't bother adding a table of contents i
 
 # Accessibility
 
-# Browser and Device Support
+# Browser/Platform and Device Support
+## Browser/Platform
+**Mac**
+- The latest versions of Chrome, Firefox, and Safari.
+
+**PC**
+- The latest versions of Chrome and Firefox
+- IE 10 and newer
+- Windows 8 and newer
+
+## Device Support
+- All mobile, tablet, laptop and desktop devices 320px wide and greater.
+
+
+**On Windows**
