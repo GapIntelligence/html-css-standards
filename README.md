@@ -94,7 +94,7 @@ Separate each rule block with a line break.
 ## Property Order
 CSS properties should be grouped alphabetically for easing scanning and locating.
 ```
-.selector-one {
+.selector {
   align-items: center;
   background-color: #eee;
   display: flex;
@@ -111,10 +111,20 @@ CSS properties should be grouped alphabetically for easing scanning and locating
 ## Vendor Prefixes
 Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.com/ai/autoprefixer-rails) then celebrate with a cocktail. 
 
+## Multi-Value Properties
+Format multi-value properties by starting a new line for each value and indenting each line 2 spaces.
+```
+.selector {
+  background: 
+    transparent url("gay-bath-house.jpg") 0 0/cover no-repeat;
+    transparent url("eugene-correia.png") 50% 25% no-repeat; 
+}
+```
+
 ## Single Properties
 It's ok to put rule blocks with a single property on a single line. Include a space after the opening bracket and before the closing bracket.
 ```
-.selector-one { height: 100vh; }
+.selector { height: 100vh; }
 ```
 
 # Sass
