@@ -51,6 +51,15 @@ Acceptable uses for `id` include:
 <section id="about"> ... </section>
 ```
 
+## Selector Specificity
+Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/) as low as possible, opting for a single class as the best selector.
+```
+.section__header--large {
+  font-size: 4em;
+  line-height: 1.6;
+}
+```
+
 # CSS Formatting
 ## Capitalization
 Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
