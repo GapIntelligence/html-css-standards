@@ -9,9 +9,9 @@
 7. Accessibility
 8. Browser and Device Support
 
-## Overview
+# Overview
 
-## HTML Best Practices
+# HTML Best Practices
 
 # HTML Formatting
 
