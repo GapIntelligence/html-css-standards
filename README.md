@@ -22,11 +22,11 @@
 #### Class Names
 Use BEM for class names.
 
-`
+```
 .block__element--modifier {
   padding: 0;
 }
-`
+```
 #### Brackets
 Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block.
 
