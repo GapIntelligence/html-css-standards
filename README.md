@@ -175,7 +175,18 @@ Always use six character and lowercase hexadecimal notation, this includes insid
  color: #555; /* the same as #555555 */
 }
 ```
-
+## TODO Comments
+Mark todos and action items with a comment that includes `TODO`. Be sure that `TODO` is always uppercase.
+```
+/* TODO - refactor this into a shorthand property */
+.selector {
+  color: #fff;
+  font-family: "lato", Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.4;
+}
+```
 
 # Sass
 
