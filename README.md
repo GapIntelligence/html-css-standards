@@ -20,6 +20,7 @@
 # CSS Formatting
 ## Name Delimiters
 **Class Names**
+
 Use BEM for class names. Prefix the parent class with `.b-`
 
 ```
