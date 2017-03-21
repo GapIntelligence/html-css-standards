@@ -23,6 +23,12 @@
 Use BEM for class names.
 
 ```
+.block {
+  padding: 0;
+}
+.block__element {
+  padding: 0;
+}
 .block__element--modifier {
   padding: 0;
 }
