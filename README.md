@@ -54,9 +54,25 @@ Acceptable uses for `id` include:
 ## Selector Specificity
 Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/) as low as possible, opting for a single class as the best selector.
 ```
-.section__header--large {
+/* Do this */
+.article__header--large {
   font-size: 4em;
   line-height: 1.6;
+}
+
+/* Don't do this shit */
+.article {
+  .header {
+    .large {
+      font-size: 4em;
+      line-height: 1.6;
+    }
+  }
+}
+
+/* Don't overquality selectors if not needed, it increases specificity. the example below is no good. */
+ul.list {
+  list-style: none;
 }
 ```
 
