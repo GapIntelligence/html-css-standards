@@ -20,7 +20,7 @@
 ## CSS Formatting
 ### Name Delimiters
 #### Class Names
-Use BEM for class names. Prefix the parent class with `.b-`.
+Use BEM for class names. Prefix the parent class with `.b-`
 
 ```
 .block {
@@ -31,6 +31,15 @@ Use BEM for class names. Prefix the parent class with `.b-`.
 }
 .block__element--modifier {
   padding: 0;
+}
+```
+#### States
+Use the prefix `is` as in `is-active` `is-hidden` `is-open` and tie it to a class using a Sass `&`
+```
+.nav {
+  &.is-open {
+    display: block;
+  }
 }
 ```
 #### Brackets
