@@ -7,7 +7,7 @@
 5. [CSS Formatting](#css-formatting)
 6. Sass
 7. Accessibility
-8. Browser and Device Support
+8. [Browser/Platform and Device Support](#browserplatform-and-device-support)
 
 # Overview
 
