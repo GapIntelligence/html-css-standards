@@ -70,7 +70,7 @@ Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specifi
   }
 }
 
-/* Don't overquality selectors if not needed, it increases specificity. the example below is no good. */
+/* Don't overquality selectors if not needed, it increases specificity. in the example below, the ul is not needed. */
 ul.list {
   list-style: none;
 }
