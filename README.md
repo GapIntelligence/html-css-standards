@@ -3,7 +3,7 @@
 1. Overview
 2. HTML Best Practices
 3. HTML Formatting
-4. CSS Best Practices
+4. [CSS Best Practices](#css-best-practices)
 5. [CSS Formatting](#css-formatting)
 6. Sass
 7. Accessibility
