@@ -36,14 +36,20 @@ Use BEM for class names. Prefix the parent class with `.b-`
 #### States
 Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style, tie it to a class using a Sass `&`
 ```
-.nav {
+.selector {
   &.is-open {
     display: block;
   }
 }
 ```
-#### Brackets
-Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block.
+### Brackets
+Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
+```
+.selector {
+  height: 100vh;
+  padding: 1em;
+}
+```
 
 ## Sass
 
