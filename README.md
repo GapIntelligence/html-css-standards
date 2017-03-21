@@ -19,7 +19,7 @@
 
 # CSS Formatting
 ## Capitalization
-Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](https://github.com/GapIntelligence/html-css-standards/blob/master/README.md#name-delimiters).
+Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
 
 ## Name Delimiters
 **Class Names**
