@@ -37,7 +37,18 @@ Acceptable uses for `id` include:
 - Jump links between sections of a page
 
 ```
-<div class="carousel" id="js-carousel"> ... </div>
+<section class="jumbotron" id="js-jumbotron"> ... </section>
+```
+```
+<label for="first-name">First Name</label>
+<input id="first-name" type="text" />
+```
+```
+<a href="#about">Skip to About section</a>
+
+...
+
+<section id="about"> ... </section>
 ```
 
 # CSS Formatting
