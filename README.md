@@ -13,13 +13,13 @@
 
 ## HTML Best Practices
 
-## HTML Formatting
+# HTML Formatting
 
-## CSS Best Practices
+# CSS Best Practices
 
-## CSS Formatting
-### Name Delimiters
-#### Class Names
+# CSS Formatting
+## Name Delimiters
+### Class Names
 Use BEM for class names. Prefix the parent class with `.b-`
 
 ```
