@@ -18,6 +18,9 @@
 # CSS Best Practices
 
 # CSS Formatting
+## Capitalization
+Do not use capitalization, all classes and ids should be lowercase and delimited as documented below.
+
 ## Name Delimiters
 **Class Names**
 
