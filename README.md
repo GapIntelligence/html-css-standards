@@ -34,7 +34,7 @@ Use BEM for class names. Prefix the parent class with `.b-`
   padding: 0;
 }
 ```
-#### States
+**States**
 Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style, tie it to a class using a Sass `&`
 ```
 .selector {
@@ -43,7 +43,7 @@ Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style
   }
 }
 ```
-### Brackets
+## Brackets
 Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
 ```
 .selector {
@@ -51,10 +51,65 @@ Place the opening curly-bracket of each rule block on the same line as the last 
   padding: 1em;
 }
 ```
+## Indentation
+Use 2 spaces for indenting. Indent each property in a rule block 2 spaces.
+```
+.selector {
+  height: 100vh;
+  padding: 1em;
+}
+```
+## Property Whitespace
+Put each property on its own line. Follow each property with a colon and a single space.
+```
+.selector {
+  height: 100vh;
+  padding: 1em;
+}
+```
+## Semicolons
+Follow each property value with a semi-colon.
+```
+.selector {
+  height: 100vh;
+  padding: 1em;
+}
+```
+## Trailing Whitespace
+Remove all trailing whitespace.
 
-## Sass
+## Rule Block Separation
+Separate each rule block with a line break.
+```
+.selector-one {
+  height: 100vh;
+  padding: 1em;
+}
+.selector-two {
+  display: flex;
+  margin: 1em;
+}
+```
+## Property Order
+CSS properties should be grouped alphabetically for easing scanning and locating.
+```
+.selector-one {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+  margin: 0 1em;
+  opacity: 1;
+  overflow: hidden;
+  padding: 1em;
+  visibility: visible;
+  transition: all .2s;
+}
+```
+# Sass
 
-## Accessibility
+# Accessibility
 
-## Browser and Device Support
+# Browser and Device Support
 
