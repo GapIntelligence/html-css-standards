@@ -16,6 +16,16 @@
 # HTML Formatting
 
 # CSS Best Practices
+## Encoding
+Do not include a `@charset` in the CSS.
+```
+/* DO NOT */
+@charset "UTF-8";
+
+.selector {
+  color: #fff;
+}
+```
 
 # CSS Formatting
 ## Capitalization
