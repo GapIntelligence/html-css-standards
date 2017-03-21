@@ -27,6 +27,15 @@ Do not include a `@charset` in the CSS.
 }
 ```
 
+## Classes and IDs
+Do not use `id` for styling purposes
+
+Acceptable uses for `id` include:
+
+- JavaScript selection - prefix these with js- to indicate they are for JavaScript only
+- Assigning form labels to inputs
+- Jump links between sections of a page
+
 # CSS Formatting
 ## Capitalization
 Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
