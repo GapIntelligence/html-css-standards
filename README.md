@@ -108,6 +108,15 @@ CSS properties should be grouped alphabetically for easing scanning and locating
   transition: all .2s;
 }
 ```
+## Vendor Prefixes
+Ain't nobody got time for that. Install the Autoprefixer gem then celebrate with a cocktail. 
+
+## Single Properties
+It's ok to put rule blocks with a single property on a single line. Include a space after the opening bracket and before the closing bracket.
+```
+.selector-one { height: 100vh; }
+```
+
 # Sass
 
 # Accessibility
