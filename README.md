@@ -188,6 +188,9 @@ Mark todos and action items with a comment that includes `TODO`. Be sure that `T
 }
 ```
 
+## Table of Contents
+Ain't nobody got time or use for this. Don't bother adding a table of contents in the CSS please.
+
 # Sass
 
 # Accessibility
