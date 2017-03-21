@@ -145,13 +145,27 @@ Group related rule blocks by base object using the standardized section comment 
 /* block: nav */
 .b-nav {
   background-color: #fff;
-  border: 1px solid #ddd;
+  display: flex;
 }
 ```
+If a section requires additional subsets of comments, a single line comment is acceptable.
 
+If a property / value pair needs additional clarity or is not self-documenting, add comments on the same line immediately following the value.
+```
+/* block: b-nav */
+.b-nav {
+  background-color: #fff;
+  display: flex; /* will not work in <IE10 */
+}
+/* resize the logo for retina screens and adjust it's padding accordingly */ 
+.nav__logo {
+  background: transparent url("logo.png") 0 0 no-repeat;
+  background-size: 50%;
+  padding: 0 .5em;
+}
+```
 # Sass
 
 # Accessibility
 
 # Browser and Device Support
-
