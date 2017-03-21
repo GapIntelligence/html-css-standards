@@ -4,7 +4,7 @@
 2. HTML Best Practices
 3. HTML Formatting
 4. CSS Best Practices
-5. CSS Formatting
+5. [CSS Formatting](#css-formatting)
 6. Sass
 7. Accessibility
 8. Browser and Device Support
