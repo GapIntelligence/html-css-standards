@@ -109,7 +109,7 @@ CSS properties should be grouped alphabetically for easing scanning and locating
 }
 ```
 ## Vendor Prefixes
-Ain't nobody got time for that. Install the Autoprefixer gem then celebrate with a cocktail. 
+Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.com/ai/autoprefixer-rails) then celebrate with a cocktail. 
 
 ## Single Properties
 It's ok to put rule blocks with a single property on a single line. Include a space after the opening bracket and before the closing bracket.
