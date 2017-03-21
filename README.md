@@ -164,6 +164,19 @@ If a property / value pair needs additional clarity or is not self-documenting, 
   padding: 0 .5em;
 }
 ```
+
+## Hexadecimal Notation
+Always use six character and lowercase hexadecimal notation, this includes inside Sass variables. If the hexcode's 6 characters are identical, it's ok to shorthand the hexcode to 3 characters.
+```
+.selector-one {
+  color: #f5f5f5;
+}
+.selector-two {
+ color: #555; /* the same as #555555 */
+}
+```
+
+
 # Sass
 
 # Accessibility
