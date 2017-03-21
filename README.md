@@ -35,6 +35,7 @@ Use BEM for class names. Prefix the parent class with `.b-`
 }
 ```
 **States**
+
 Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style, tie it to a class using a Sass `&`
 ```
 .selector {
