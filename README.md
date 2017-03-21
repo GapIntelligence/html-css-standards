@@ -130,6 +130,25 @@ It's ok to put rule blocks with a single property on a single line. Include a sp
 .selector { height: 100vh; }
 ```
 
+## Multiple Selectors
+Separate multiple selectors in the same rule block with a comma and place each selector on a new line.
+```
+.selector:hover,
+.selector:focus {
+  color: #555;
+}
+```
+
+## Comments and Grouping
+Group related rule blocks by base object using the standardized section comment style.
+```
+/* block: nav */
+.b-nav {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+```
+
 # Sass
 
 # Accessibility
