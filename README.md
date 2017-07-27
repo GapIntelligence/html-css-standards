@@ -12,6 +12,8 @@
 # Overview
 
 # HTML Best Practices
+## Purpose
+So that Gap Intelligence has consistency and cohesion in their front-end code. 
 
 # HTML Formatting
 
