@@ -33,7 +33,12 @@ Use 2 spaces for indentation in your editor of choice.
 # Capitalization
 Use only lowercase, unless it's for a string.
 ```
-<img src="herbie.jpg" class="main__img" alt="Herbie, the gap intelligence mascot.">
+<img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
+```
+# Quotes
+Use double quotes around attribute values.
+```
+<input type="text" class="search">
 ```
 
 # Trailing Whitespace
