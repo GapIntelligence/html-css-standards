@@ -32,6 +32,9 @@ Use 2 spaces for indentation in your editor of choice.
 
 # Capitalization
 Use only lowercase, unless it's for a string.
+```
+<img src="herbie.jpg" class="main__img" alt="Herbie, the gap intelligence mascot.">
+```
 
 # Trailing Whitespace
 Remove all trailing whitespace.
