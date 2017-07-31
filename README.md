@@ -27,6 +27,24 @@ Done is better than perfect, and every project is different. That being said, it
 # HTML Best Practices
 
 # HTML Formatting
+# Closing Tags
+Any element with an opening tag needs a closing tag. 
+```
+<p>Close this paragraph tag.</p>
+```
+With HTML5, the trailing slash on self-closing tags is now optional. If you're using HTML5, it's good practice not to use trailing slashes. No need to use code that's not needed. 
+```
+**No**
+<img src="herbie.jpg" />
+<input type="text" />
+<br />
+
+**Yes**
+<img src="herbie.jpg>
+<input type="text">
+<br>
+```
+
 # Indentation
 Use 2 spaces for indentation in your editor of choice.
 
