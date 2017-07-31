@@ -42,7 +42,7 @@ With HTML5, the trailing slash on self-closing tags is now optional. If you're u
 ```
 **Yes**
 ```
-<img src="herbie.jpg>
+<img src="herbie.jpg">
 <input type="text">
 <br>
 ```
