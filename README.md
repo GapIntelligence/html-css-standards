@@ -11,7 +11,7 @@
 
 # Overview
 ## Purpose
-The pupose of this document is to set coding standards so that Gap Intelligence has consistency and cohesion in their front-end code.
+T**he** pupose of this document is to set coding standards so that Gap Intelligence has consistency and cohesion in their front-end code.
 
 Done is better than perfect, and every project is different. That being said, it's not always a necessity to follow these rules exactly. Simply strive for your code to be:
 * Semantic
