@@ -10,8 +10,6 @@
 8. [Browser/Platform and Device Support](#browserplatform-and-device-support)
 
 # Overview
-
-# HTML Best Practices
 ## Purpose
 The pupose of this document is to set coding standards so that Gap Intelligence has consistency and cohesion in their front-end code.
 
@@ -26,7 +24,17 @@ Done is better than perfect, and every project is different. That being said, it
 * Optimized
 * Accessible
 
+# HTML Best Practices
+
 # HTML Formatting
+# Indentation
+Use 2 spaces for indentation in your editor of choice.
+
+# Capitalization
+Use only lowercase, unless it's for a string.
+
+# Trailing Whitespace
+Remove all trailing whitespace.
 
 # CSS Best Practices
 ## Encoding
