@@ -35,10 +35,16 @@ Use the HTML5 doctype.
 * https://www.w3schools.com/tags/tag_doctype.asp
 
 ## Encoding
-Use UTF-8 encoding. This meta tag should be the first element inside the documents `<head>` element.
+Use UTF-8 encoding. This meta tag should be the first element inside the document's `<head>` element.
 ```html
 <meta charset="utf-8">
 ```
+
+## HTML5 Elements
+Always use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
+
+**Resources**
+* http://caniuse.com/
 
 ## W3C Validation
 * Write valid code.
