@@ -53,7 +53,7 @@ With HTML5, the trailing slash on self-closing tags is now optional. If you're u
 <br>
 ```
 
-#### COMMENTS
+### COMMENTS
 Use standard HTML comments liberally to add structure and clarity to your code.
 ```html
 <!-- Start of main content -->
@@ -61,7 +61,7 @@ Use standard HTML comments liberally to add structure and clarity to your code.
 <!-- End of main content -->
 ```
 
-#### DOCTYPES
+### DOCTYPES
 Use the HTML5 doctype.
 ```html
 <!doctype html>
@@ -70,13 +70,13 @@ Use the HTML5 doctype.
 **Resources**
 * https://www.w3schools.com/tags/tag_doctype.asp
 
-#### ENCODING
+### ENCODING
 Use UTF-8 encoding. This meta tag should be the first element inside the document's `<head>` element.
 ```html
 <meta charset="utf-8">
 ```
 
-#### HTML ENTITIES
+### HTML ENTITIES
 Use appropriate HTML entity names or numbers for special characters.
 ```html
 &copy; 2017 Gap Intelligence &amp; Herbie the Hedgehog &#8482;
@@ -85,16 +85,16 @@ Use appropriate HTML entity names or numbers for special characters.
 **Resources**
 * https://www.freeformatter.com/html-entities.html
 
-#### HTML TEMPLATING LANGUAGES
+### HTML TEMPLATING LANGUAGES
 Always an HTML templating language like Slim, Haml, or Jade when possible. Ain't nobody got time to write standard HTML. It's time consuming and can be difficult to manage the closing of tags. Slim has been Gap Intelligence's language of choice because it processes slightly faster than it's competition, but if you feel something else works better for you, use it. Just be sure to run it by the backend team as they have to write HTML sometimes as well.
 
-#### HTML5 ELEMENTS
+### HTML5 ELEMENTS
 Use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
 
 **Resources**
 * http://caniuse.com
 
-#### HTML5 FORM VALIDATION
+### HTML5 FORM VALIDATION
 By default, many HTML5 form inputs include validation that is provided by the browser. In many cases the browser implemented messages are not desired and/or your application may have it's own validation and error messaging in place. In order to remove validation (and thereby the default browser messages) use the `novalidate` attribute on the containing form.
 ```html
 <form action="#" method="post" novalidate>
@@ -104,7 +104,7 @@ By default, many HTML5 form inputs include validation that is provided by the br
 </form>
 ```
 
-#### IMAGE FORMATS
+### IMAGE FORMATS
 Know the pros/cons of each image format and use whatever best suits your needs. In general at Gap Intelligence we use:
 * .jpg
 * .png
@@ -114,16 +114,16 @@ Know the pros/cons of each image format and use whatever best suits your needs. 
 **Resources**
 * https://en.wikipedia.org/wiki/Image_file_formats
 
-#### INDENTATION
+### INDENTATION
 Use 2 spaces for indentation in your editor of choice.
 
-#### QUOTES
+### QUOTES
 Use double quotes around attribute values.
 ```html
 <input type="text" class="search">
 ```
 
-#### SEMANTIC MARKUP
+### SEMANTIC MARKUP
 Write clean, semantic markup that adds structure and clarity to the code. Just as important, it should also reinforce the meaning of the page content.
 ```html
 <main>
@@ -140,7 +140,7 @@ Write clean, semantic markup that adds structure and clarity to the code. Just a
 * http://www.hongkiat.com/blog/html-5-semantics
 * https://css-tricks.com/video-screencasts/100-lets-write-semantic-markup
 
-#### TABLES
+### TABLES
 Tables should only be used for tabular data and never, ever used for page layouts. Below is standard markup for a table. The tags `<thead>` and `<tfoot>` can be omitted if the table doesn't have a header or footer.
 ```html
 <table>
@@ -159,7 +159,7 @@ Tables should only be used for tabular data and never, ever used for page layout
 </table>
 ```
 
-#### TODO COMMENTS
+### TODO COMMENTS
 Mark todos and action items with a comment that includes `TODO`. Be sure that `TODO` is always uppercase.
 ```html
 <!-- TODO - refactor later with HTML5 tags -->
@@ -168,10 +168,10 @@ Mark todos and action items with a comment that includes `TODO`. Be sure that `T
 </div>
 ```
 
-#### TRAILING WHITESPACE
+### TRAILING WHITESPACE
 Remove all trailing whitespace.
 
-#### TYPE ATTRIBUTES
+### TYPE ATTRIBUTES
 **HTML5 Doctype**
 
 When working with HTML5, the `type` attribute is no longer needed for stylesheets and scripts.
@@ -187,7 +187,7 @@ When working with doctypes older than HTML5, the `type` attribute is required.
 <script src="main.js" type="text/javascript" />
 ```
 
-#### W3C VALIDATION
+### W3C VALIDATION
 * Write valid code.
 * Remaining errors and warnings should be intentional.
 
@@ -195,7 +195,7 @@ When working with doctypes older than HTML5, the `type` attribute is required.
 * http://validator.w3.org
 
 # CSS
-#### BRACKETS
+### BRACKETS
 Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
 ```css
 .selector {
@@ -204,7 +204,7 @@ Place the opening curly-bracket of each rule block on the same line as the last 
 }
 ```
 
-#### BROWSER HACKS
+### BROWSER HACKS
 Browser hacks should only be used on browsers <= IE10. Other than our legacy applications (gapTCO, Data Center, etc.), Gap Intelligence only supports browsers >= IE11 on platforms >= Windows 8. This decision was made because as of January 12, 2016, Microsoft stopped supporting IE10 and older. At this point, Chrome, FF, Safari, Edge, and IE11+ are W3C standards compliant on both Mac and PC. This means any browser inconsistencies with your code should be solvable without resorting to browser hacks. Of course nothing is perfect, so if you find yourself in a bind, feel free to use browser hacks, but make it a point to come back later and try to fix it without hacking.
 
 **Resources**
@@ -218,10 +218,10 @@ With legacy applications, it's preferable to use conditional comments over brows
 <!--[if lte IE 6]><link href="ie6.css" rel="stylesheet" /><![endif]-->
 ```
 
-#### CAPITALIZATION
+### CAPITALIZATION
 Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
 
-#### CLASSES AND IDS
+### CLASSES AND IDS
 Do not use `id` for styling purposes
 
 Acceptable uses for `id` include:
@@ -245,7 +245,7 @@ Acceptable uses for `id` include:
 <section id="about"> ... </section>
 ```
 
-#### COMMENTS AND GROUPING
+### COMMENTS AND GROUPING
 Group related rule blocks by base object using the standardized section comment style.
 ```css
 /* block: nav */
@@ -271,7 +271,7 @@ If a property / value pair needs additional clarity or is not self-documenting, 
 }
 ```
 
-#### ENCODING
+### ENCODING
 Do not include a `@charset` in the CSS.
 ```css
 /* DO NOT */
@@ -282,7 +282,7 @@ Do not include a `@charset` in the CSS.
 }
 ```
 
-#### HEXADECIMAL NOTATION
+### HEXADECIMAL NOTATION
 Always use six character and lowercase hexadecimal notation, this includes inside Sass variables. If the hexcode's 6 characters are identical, it's ok to shorthand the hexcode to 3 characters.
 ```css
 .selector-one {
@@ -293,7 +293,7 @@ Always use six character and lowercase hexadecimal notation, this includes insid
 }
 ```
 
-#### INDENTATION
+### INDENTATION
 Use 2 spaces for indenting. Do it.
 ```css
 .selector {
@@ -302,7 +302,7 @@ Use 2 spaces for indenting. Do it.
 }
 ```
 
-#### MULTI-VALUE PROPERTIES
+### MULTI-VALUE PROPERTIES
 Format multi-value properties by starting a new line for each value and indenting each line 2 spaces.
 ```sass
 .selector {
@@ -312,7 +312,7 @@ Format multi-value properties by starting a new line for each value and indentin
 }
 ```
 
-#### MULTIPLE SELECTORS
+### MULTIPLE SELECTORS
 Separate multiple selectors in the same rule block with a comma and place each selector on a new line.
 ```css
 .selector:hover,
@@ -321,7 +321,7 @@ Separate multiple selectors in the same rule block with a comma and place each s
 }
 ```
 
-#### NAME DELIMITERS
+### NAME DELIMITERS
 **Class Names**
 
 Use BEM for class names. Prefix the parent class with `.b-`
@@ -354,7 +354,7 @@ Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style
 }
 ```
 
-#### PROPERTY ORDER
+### PROPERTY ORDER
 CSS properties should be grouped alphabetically for easing scanning and locating.
 ```css
 .selector {
@@ -372,7 +372,7 @@ CSS properties should be grouped alphabetically for easing scanning and locating
 }
 ```
 
-#### PROPERTY WHITESPACE
+### PROPERTY WHITESPACE
 Put each property on its own line. Follow each property with a colon and a single space.
 ```css
 .selector {
@@ -381,7 +381,7 @@ Put each property on its own line. Follow each property with a colon and a singl
 }
 ```
 
-#### RULE BLOCK SEPARATION
+### RULE BLOCK SEPARATION
 Separate each rule block with a line break.
 ```css
 .selector-one {
@@ -394,7 +394,7 @@ Separate each rule block with a line break.
 }
 ```
 
-#### SELECTOR SPECIFICITY
+### SELECTOR SPECIFICITY
 Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/) as low as possible, opting for a single class as the best selector.
 ```sass
 /* Do this */
@@ -419,7 +419,7 @@ ul.list {
 }
 ```
 
-#### SEMICOLONS
+### SEMICOLONS
 Follow each property value with a semicolon.
 ```css
 .selector {
@@ -428,22 +428,22 @@ Follow each property value with a semicolon.
 }
 ```
 
-#### SHORTHAND
+### SHORTHAND
 Use shorthand where possible unless setting a single value. Check out the handy reference guide with all the CSS properties that utilize shorthand below. 
 
 **Resources**
 * https://www.w3.org/community/webed/wiki/CSS_shorthand_reference
 
-#### SINGLE PROPERTIES
+### SINGLE PROPERTIES
 It's ok to put rule blocks with a single property on a single line. Include a space after the opening bracket and before the closing bracket.
 ```css
 .selector { height: 100vh; }
 ```
 
-#### TABLE OF CONTENTS
+### TABLE OF CONTENTS
 Ain't nobody got time or use for this. Don't bother adding a table of contents in the CSS please.
 
-#### TODO COMMENTS
+### TODO COMMENTS
 Mark todos and action items with a comment that includes `TODO`. Be sure that `TODO` is always uppercase.
 ```css
 /* TODO - refactor this into a shorthand property */
@@ -456,13 +456,13 @@ Mark todos and action items with a comment that includes `TODO`. Be sure that `T
 }
 ```
 
-#### TRAILING WHITESPACE
+### TRAILING WHITESPACE
 Remove all trailing whitespace.
 
-#### VENDOR PREFIXES
+### VENDOR PREFIXES
 Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.com/ai/autoprefixer-rails) then celebrate with a cocktail. 
 
-#### W3C VALIDATION
+### W3C VALIDATION
 * Write valid code.
 * Remaining errors and warnings should be intentional.
 
@@ -471,7 +471,7 @@ Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.co
 * http://csslint.net
 
 # Browser/Platform and Device Support
-#### BROWSER/PLATFORM
+### BROWSER/PLATFORM
 **Mac**
 - The latest versions of Chrome, Firefox, and Safari.
 
@@ -480,5 +480,5 @@ Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.co
 - IE 10 and newer
 - Windows 8 and newer
 
-#### DEVICE SUPPORT
+### DEVICE SUPPORT
 - All mobile, tablet, laptop and desktop devices >= 320px wide.
