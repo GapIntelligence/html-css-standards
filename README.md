@@ -27,7 +27,7 @@ Done is better than perfect, and every project is different. That being said, it
 # HTML Best Practices
 
 # HTML Formatting
-# Closing Tags
+## Closing Tags
 Any element with an opening tag needs a closing tag. 
 ```
 <p>Close this paragraph tag.</p>
@@ -47,21 +47,21 @@ With HTML5, the trailing slash on self-closing tags is now optional. If you're u
 <br>
 ```
 
-# Indentation
+## Indentation
 Use 2 spaces for indentation in your editor of choice.
 
-# Capitalization
+## Capitalization
 Use only lowercase, unless it's for a string.
 ```
 <img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
 ```
-# Quotes
+## Quotes
 Use double quotes around attribute values.
 ```
 <input type="text" class="search">
 ```
 
-# Trailing Whitespace
+## Trailing Whitespace
 Remove all trailing whitespace.
 
 # CSS Best Practices
