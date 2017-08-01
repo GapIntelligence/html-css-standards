@@ -44,7 +44,13 @@ Use UTF-8 encoding. This meta tag should be the first element inside the documen
 Always use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
 
 **Resources**
-* http://caniuse.com/
+* http://caniuse.com
+
+## HTML Entities
+Use appropriate HTML entity names or numbers for special characters.
+```html
+&copy; 2017 Gap Intelligence &amp; Herbie the Hedgehog &#8482;
+```
 
 ## HTML5 Form Validation
 By default, many HTML5 form inputs include validation that is provided by the browser. In many cases the browser implemented messages are not desired and/or your application may have it's own validation and error messaging in place. In order to remove validation (and thereby the default browser messages) use the `novalidate` attribute on the containing form.
@@ -54,6 +60,20 @@ By default, many HTML5 form inputs include validation that is provided by the br
   <input type="email" placeholder="Enter a valid email address" id="email">
   <button type="submit">Submit</button>
 </form>
+```
+
+## Type Attributes
+**HTML5 Doctype**
+When working with HTML5, the `type` attribute is no longer needed for stylesheets and scripts.
+```html
+<link rel="stylesheet" href="main.css">
+<script src="main.js">
+```
+**Legacy Doctypes**
+When working with doctypes older than HTML5, the `type` attribute is required.
+```html
+<link rel="stylesheet" href="main.css" type="text/css" />
+<script src="main.js" type="text/javascript" />
 ```
 
 ## W3C Validation
