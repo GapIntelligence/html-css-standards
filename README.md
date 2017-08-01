@@ -3,9 +3,7 @@
 1. [Overview](#overview)
 2. [HTML](#html)
 3. [CSS](#css)
-4. [Sass](#sass)
-5. [Accessibility](#accessibility)
-6. [Browser/Platform and Device Support](#browserplatform-and-device-support)
+4. [Browser/Platform and Device Support](#browserplatform-and-device-support)
 
 # Overview
 ## Purpose
@@ -462,9 +460,13 @@ Remove all trailing whitespace.
 ## Vendor Prefixes
 Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.com/ai/autoprefixer-rails) then celebrate with a cocktail. 
 
-# Sass
+## W3C Validation
+* Write valid code.
+* Remaining errors and warnings should be intentional.
 
-# Accessibility
+**Resources**
+* http://jigsaw.w3.org/css-validator
+* http://csslint.net
 
 # Browser/Platform and Device Support
 ## Browser/Platform
