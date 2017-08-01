@@ -30,6 +30,7 @@ Done is better than perfect, and every project is different. That being said, it
 * Remaining errors and warnings should be intentional.
 
 **W3C Validator**
+
 http://validator.w3.org
 
 # HTML Formatting
