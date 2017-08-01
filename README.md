@@ -1,4 +1,4 @@
-# Gap Intelligence's front-end coding standards
+# Gap Intelligence's Front-end Coding Standards
 ## Table of Contents
 1. [Overview](#overview)
 2. [HTML](#html)
