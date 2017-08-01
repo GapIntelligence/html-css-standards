@@ -27,6 +27,12 @@ Done is better than perfect, and every project is different. That being said, it
 # HTML Best Practices
 
 # HTML Formatting
+## Boolean Attributes
+Boolean attributes should not have a value.
+```
+<input type="text" disabled>
+```
+
 ## Capitalization
 Use only lowercase, unless it's for a string.
 ```
