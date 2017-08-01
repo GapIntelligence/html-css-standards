@@ -99,17 +99,17 @@ Acceptable uses for `id` include:
 <label for="first-name">First Name</label>
 <input id="first-name" type="text">
 ```
-```
+```html
 <a href="#about">Skip to About section</a>
 
-...
+---
 
 <section id="about"> ... </section>
 ```
 
 ## Selector Specificity
 Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/) as low as possible, opting for a single class as the best selector.
-```
+```css
 /* Do this */
 .article__header--large {
   font-size: 4em;
@@ -141,7 +141,7 @@ Do not use capitalization, all classes and ids should be lowercase and delimited
 
 Use BEM for class names. Prefix the parent class with `.b-`
 
-```
+```css
 .block {
   padding: 0;
 }
@@ -155,7 +155,7 @@ Use BEM for class names. Prefix the parent class with `.b-`
 **States**
 
 Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style, tie it to a class using a Sass `&`
-```
+```css
 .selector {
   &.is-open {
     display: block;
@@ -164,7 +164,7 @@ Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style
 ```
 ## Brackets
 Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
-```
+```css
 .selector {
   height: 100vh;
   padding: 1em;
@@ -172,7 +172,7 @@ Place the opening curly-bracket of each rule block on the same line as the last 
 ```
 ## Indentation
 Use 2 spaces for indenting. Indent each property in a rule block 2 spaces.
-```
+```css
 .selector {
   height: 100vh;
   padding: 1em;
@@ -180,7 +180,7 @@ Use 2 spaces for indenting. Indent each property in a rule block 2 spaces.
 ```
 ## Property Whitespace
 Put each property on its own line. Follow each property with a colon and a single space.
-```
+```css
 .selector {
   height: 100vh;
   padding: 1em;
@@ -188,7 +188,7 @@ Put each property on its own line. Follow each property with a colon and a singl
 ```
 ## Semicolons
 Follow each property value with a semi-colon.
-```
+```css
 .selector {
   height: 100vh;
   padding: 1em;
@@ -199,7 +199,7 @@ Remove all trailing whitespace.
 
 ## Rule Block Separation
 Separate each rule block with a line break.
-```
+```css
 .selector-one {
   height: 100vh;
   padding: 1em;
@@ -211,7 +211,7 @@ Separate each rule block with a line break.
 ```
 ## Property Order
 CSS properties should be grouped alphabetically for easing scanning and locating.
-```
+```css
 .selector {
   align-items: center;
   background-color: #eee;
@@ -231,7 +231,7 @@ Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.co
 
 ## Multi-Value Properties
 Format multi-value properties by starting a new line for each value and indenting each line 2 spaces.
-```
+```css
 .selector {
   background: 
     transparent url("gay-bath-house.jpg") 0 0/cover no-repeat;
@@ -241,13 +241,13 @@ Format multi-value properties by starting a new line for each value and indentin
 
 ## Single Properties
 It's ok to put rule blocks with a single property on a single line. Include a space after the opening bracket and before the closing bracket.
-```
+```css
 .selector { height: 100vh; }
 ```
 
 ## Multiple Selectors
 Separate multiple selectors in the same rule block with a comma and place each selector on a new line.
-```
+```css
 .selector:hover,
 .selector:focus {
   color: #555;
@@ -256,7 +256,7 @@ Separate multiple selectors in the same rule block with a comma and place each s
 
 ## Comments and Grouping
 Group related rule blocks by base object using the standardized section comment style.
-```
+```css
 /* block: nav */
 .b-nav {
   background-color: #fff;
@@ -266,7 +266,7 @@ Group related rule blocks by base object using the standardized section comment 
 If a section requires additional subsets of comments, a single line comment is acceptable.
 
 If a property / value pair needs additional clarity or is not self-documenting, add comments on the same line immediately following the value.
-```
+```css
 /* block: b-nav */
 .b-nav {
   background-color: #fff;
@@ -282,7 +282,7 @@ If a property / value pair needs additional clarity or is not self-documenting, 
 
 ## Hexadecimal Notation
 Always use six character and lowercase hexadecimal notation, this includes inside Sass variables. If the hexcode's 6 characters are identical, it's ok to shorthand the hexcode to 3 characters.
-```
+```css
 .selector-one {
   color: #f5f5f5;
 }
@@ -292,7 +292,7 @@ Always use six character and lowercase hexadecimal notation, this includes insid
 ```
 ## TODO Comments
 Mark todos and action items with a comment that includes `TODO`. Be sure that `TODO` is always uppercase.
-```
+```css
 /* TODO - refactor this into a shorthand property */
 .selector {
   color: #fff;
