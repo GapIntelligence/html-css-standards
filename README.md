@@ -173,12 +173,14 @@ Remove all trailing whitespace.
 
 #### TYPE ATTRIBUTES
 **HTML5 Doctype**
+
 When working with HTML5, the `type` attribute is no longer needed for stylesheets and scripts.
 ```html
 <link rel="stylesheet" href="main.css">
 <script src="main.js">
 ```
 **Legacy Doctypes**
+
 When working with doctypes older than HTML5, the `type` attribute is required.
 ```html
 <link rel="stylesheet" href="main.css" type="text/css" />
