@@ -59,6 +59,14 @@ With HTML5, the trailing slash on self-closing tags is now optional. If you're u
 <br>
 ```
 
+## Comments
+Use standard HTML comments liberally to add structure and clarity to your code.
+```html
+<!-- Start of main content -->
+<section class="b-main-content">...</section>
+<!-- End of main content -->
+```
+
 ## Indentation
 Use 2 spaces for indentation in your editor of choice.
 
@@ -66,6 +74,14 @@ Use 2 spaces for indentation in your editor of choice.
 Use double quotes around attribute values.
 ```html
 <input type="text" class="search">
+```
+## TODO Comments
+Mark todos and action items with a comment that includes `TODO`. Be sure that `TODO` is always uppercase.
+```html
+<!-- TODO - refactor later with HTML5 tags -->
+<div class="main-content">
+  <div class="article">...</div>
+</div>
 ```
 
 ## Trailing Whitespace
