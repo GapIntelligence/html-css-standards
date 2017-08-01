@@ -1,13 +1,11 @@
 # Gap Intelligence's front-end coding standards
 ## Table of Contents
 1. [Overview](#overview)
-2. [HTML Best Practices](#html-best-practices)
-3. [HTML Formatting](#html-formatting)
-4. [CSS Best Practices](#css-best-practices)
-5. [CSS Formatting](#css-formatting)
-6. [Sass](#sass)
-7. [Accessibility](#accessibility)
-8. [Browser/Platform and Device Support](#browserplatform-and-device-support)
+2. [HTML](#html)
+3. [CSS](#css)
+4. [Sass](#sass)
+5. [Accessibility](#accessibility)
+6. [Browser/Platform and Device Support](#browserplatform-and-device-support)
 
 # Overview
 ## Purpose
@@ -24,7 +22,8 @@ Done is better than perfect, and every project is different. That being said, it
 * Optimized
 * Accessible
 
-# HTML Best Practices
+----------
+# HTML
 ## Doctypes
 Use the HTML5 doctype.
 ```html
@@ -40,12 +39,6 @@ Use UTF-8 encoding. This meta tag should be the first element inside the documen
 <meta charset="utf-8">
 ```
 
-## HTML5 Elements
-Use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
-
-**Resources**
-* http://caniuse.com
-
 ## HTML Entities
 Use appropriate HTML entity names or numbers for special characters.
 ```html
@@ -54,6 +47,12 @@ Use appropriate HTML entity names or numbers for special characters.
 
 **Resources**
 * https://www.freeformatter.com/html-entities.html
+
+## HTML5 Elements
+Use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
+
+**Resources**
+* http://caniuse.com
 
 ## HTML5 Form Validation
 By default, many HTML5 form inputs include validation that is provided by the browser. In many cases the browser implemented messages are not desired and/or your application may have it's own validation and error messaging in place. In order to remove validation (and thereby the default browser messages) use the `novalidate` attribute on the containing form.
@@ -132,7 +131,6 @@ When working with doctypes older than HTML5, the `type` attribute is required.
 **Resources**
 * http://validator.w3.org
 
-# HTML Formatting
 ## Boolean Attributes
 Boolean attributes should not have a value.
 ```html
@@ -196,7 +194,7 @@ Mark todos and action items with a comment that includes `TODO`. Be sure that `T
 ## Trailing Whitespace
 Remove all trailing whitespace.
 
-# CSS Best Practices
+# CSS
 ## Encoding
 Do not include a `@charset` in the CSS.
 ```css
@@ -257,7 +255,6 @@ ul.list {
 }
 ```
 
-# CSS Formatting
 ## Brackets
 Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
 ```css
