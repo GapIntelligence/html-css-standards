@@ -27,13 +27,13 @@ Done is better than perfect, and every project is different. That being said, it
 # HTML Best Practices
 
 # HTML Formatting
-#### CAPITALIZATION
+## Capitalization
 Use only lowercase, unless it's for a string.
 ```
 <img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
 ```
 
-### Closing Tags
+## Closing Tags
 Any element with an opening tag needs a closing tag. 
 ```
 <p>Close this paragraph tag.</p>
