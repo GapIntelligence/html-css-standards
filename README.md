@@ -29,7 +29,7 @@ Done is better than perfect, and every project is different. That being said, it
 # HTML Formatting
 ## Boolean Attributes
 Boolean attributes should not have a value.
-```
+```html
 <input type="text" disabled>
 ```
 
