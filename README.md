@@ -41,7 +41,7 @@ Use UTF-8 encoding. This meta tag should be the first element inside the documen
 ```
 
 ## HTML5 Elements
-Always use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
+Use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
 
 **Resources**
 * http://caniuse.com
@@ -60,6 +60,19 @@ By default, many HTML5 form inputs include validation that is provided by the br
   <input type="email" placeholder="Enter a valid email address" id="email">
   <button type="submit">Submit</button>
 </form>
+```
+
+## Semantic Markup
+Write clean, semantic markup that adds structure and clarity to the code. Just as important, it should also reinforce the meaning of the page content.
+```html
+<main>
+  <section class="about">
+    <article>
+      <h1>About Us</h1>
+      <p>We da shit, son.</p>
+    </article>
+  </section>
+</main>
 ```
 
 ## Type Attributes
