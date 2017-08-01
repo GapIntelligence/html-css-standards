@@ -1,12 +1,12 @@
 # Gap Intelligence's front-end coding standards
 ## Table of Contents
-1. Overview
-2. HTML Best Practices
-3. HTML Formatting
+1. [Overview](#overview)
+2. [HTML Best Practices](#html-best-practices)
+3. [HTML Formatting](#html-formatting)
 4. [CSS Best Practices](#css-best-practices)
 5. [CSS Formatting](#css-formatting)
-6. Sass
-7. Accessibility
+6. [Sass](#sass)
+7. [Accessibility](#accessibility)
 8. [Browser/Platform and Device Support](#browserplatform-and-device-support)
 
 # Overview
