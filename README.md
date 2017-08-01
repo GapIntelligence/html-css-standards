@@ -414,6 +414,12 @@ Follow each property value with a semicolon.
 }
 ```
 
+## Shorthand
+Use shorthand where possible unless setting a single value. Check out the handy reference guide with all the CSS properties that utilize shorthand below. 
+
+**Resources**
+* https://www.w3.org/community/webed/wiki/CSS_shorthand_reference
+
 ## Single Properties
 It's ok to put rule blocks with a single property on a single line. Include a space after the opening bracket and before the closing bracket.
 ```css
