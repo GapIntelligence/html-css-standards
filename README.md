@@ -6,7 +6,7 @@
 4. [Browser/Platform and Device Support](#browserplatform-and-device-support)
 
 # Overview
-## Purpose
+#### PURPOSE
 The pupose of this document is to set coding standards so that Gap Intelligence has consistency and cohesion in their front-end code.
 
 Done is better than perfect, and every project is different. That being said, it's not always a necessity to follow these rules exactly. Simply strive for your code to be:
@@ -21,7 +21,7 @@ Done is better than perfect, and every project is different. That being said, it
 * Accessible
 
 # HTML
-## Boolean Attributes
+#### BOOLEAN ATTRIBUTES
 Boolean attributes should not have a value.
 ```html
 <input type="text" disabled>
