@@ -204,6 +204,20 @@ Place the opening curly-bracket of each rule block on the same line as the last 
 }
 ```
 
+## Browser Hacks
+Browser hacks should only be used on browsers <= IE10. Other than our legacy applications (gapTCO, Data Center, etc.), Gap Intelligence only supports browsers >= IE11 on platforms >= Windows 8. This decision was made because as of January 12, 2016, Microsoft stopped supporting IE10 and older. At this point, Chrome, FF, Safari, Edge, and IE11+ are W3C standards compliant on both Mac and PC. This means any browser inconsistencies with your code should be solvable without resorting to browser hacks. Of course nothing is perfect, so if you find yourself in a bind, feel free to use browser hacks, but make it a point to come back later and try to fix it without hacking.
+
+**Resources**
+* http://browserhacks.com
+
+With legacy applications, it's preferable to use conditional comments over browser hacks if you have a large amount of code targeted at a specific browser.
+```html
+<!--[if IE 9]><link href="ie9.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 8]><link href="ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 7]><link href="ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="ie6.css" rel="stylesheet" /><![endif]-->
+```
+
 ## Capitalization
 Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
 
