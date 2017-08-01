@@ -65,6 +65,16 @@ By default, many HTML5 form inputs include validation that is provided by the br
 </form>
 ```
 
+## Image Formats
+Know the pros/cons of each image format and use whatever best suits your needs. In general at Gap Intelligence we use:
+* .jpg
+* .png
+* .svg
+* .gif
+
+**Resources**
+* https://en.wikipedia.org/wiki/Image_file_formats
+
 ## Semantic Markup
 Write clean, semantic markup that adds structure and clarity to the code. Just as important, it should also reinforce the meaning of the page content.
 ```html
