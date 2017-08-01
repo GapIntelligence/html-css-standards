@@ -34,6 +34,12 @@ Use the HTML5 doctype.
 **Resources**
 * https://www.w3schools.com/tags/tag_doctype.asp
 
+## Encoding
+Use UTF-8 encoding. This meta tag should be the first element inside the documents `<head>` element.
+```html
+<meta charset="utf-8">
+```
+
 ## W3C Validation
 * Write valid code.
 * Remaining errors and warnings should be intentional.
