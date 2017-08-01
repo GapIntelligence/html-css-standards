@@ -27,6 +27,12 @@ Done is better than perfect, and every project is different. That being said, it
 # HTML Best Practices
 
 # HTML Formatting
+## Capitalization
+Use only lowercase, unless it's for a string.
+```
+<img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
+```
+
 ## Closing Tags
 Any element with an opening tag needs a closing tag. 
 ```
@@ -50,11 +56,6 @@ With HTML5, the trailing slash on self-closing tags is now optional. If you're u
 ## Indentation
 Use 2 spaces for indentation in your editor of choice.
 
-## Capitalization
-Use only lowercase, unless it's for a string.
-```
-<img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
-```
 ## Quotes
 Use double quotes around attribute values.
 ```
