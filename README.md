@@ -277,6 +277,12 @@ Use BEM for class names. Prefix the parent class with `.b-`
   padding: 0;
 }
 ```
+
+**Resources**
+* https://css-tricks.com/bem-101
+* https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax
+* https://www.sitepoint.com/bem-smacss-advice-from-developers
+
 **States**
 
 Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style, tie it to a class using a Sass `&`
