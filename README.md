@@ -75,6 +75,10 @@ Write clean, semantic markup that adds structure and clarity to the code. Just a
 </main>
 ```
 
+**Resources**
+* http://www.hongkiat.com/blog/html-5-semantics
+* https://css-tricks.com/video-screencasts/100-lets-write-semantic-markup
+
 ## Type Attributes
 **HTML5 Doctype**
 When working with HTML5, the `type` attribute is no longer needed for stylesheets and scripts.
