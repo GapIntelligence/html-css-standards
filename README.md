@@ -21,19 +21,19 @@ Done is better than perfect, and every project is different. That being said, it
 * Accessible
 
 # HTML
-#### BOOLEAN ATTRIBUTES
+### BOOLEAN ATTRIBUTES
 Boolean attributes should not have a value.
 ```html
 <input type="text" disabled>
 ```
 
-#### CAPITALIZATION
+### CAPITALIZATION
 Use only lowercase, unless it's for a string.
 ```html
 <img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
 ```
 
-#### CLOSING TAGS
+### CLOSING TAGS
 Any element with an opening tag needs a closing tag. 
 ```html
 <p>Close this paragraph tag.</p>
