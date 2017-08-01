@@ -25,6 +25,11 @@ Done is better than perfect, and every project is different. That being said, it
 * Accessible
 
 # HTML Best Practices
+## W3C Validation
+* Write valid code.
+* Remaining errors and warnings should be intentional.
+** W3C Validator **
+[http://validator.w3.org]
 
 # HTML Formatting
 ## Boolean Attributes
@@ -69,6 +74,9 @@ Use standard HTML comments liberally to add structure and clarity to your code.
 
 ## Indentation
 Use 2 spaces for indentation in your editor of choice.
+
+## HTML Templating Languages
+Always an HTML templating language like Slim, Haml, or Jade when possible. Ain't nobody got time to write standard HTML. It's time consuming and can be difficult to manage the closing of tags. Slim has been Gap Intelligence's language of choice because it processes slightly faster than it's competition, but if you feel something else works better for you, use it. Just be sure to run it by the backend team as they have to write HTML sometimes as well.
 
 ## Quotes
 Use double quotes around attribute values.
