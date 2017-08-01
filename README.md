@@ -52,6 +52,9 @@ Use appropriate HTML entity names or numbers for special characters.
 &copy; 2017 Gap Intelligence &amp; Herbie the Hedgehog &#8482;
 ```
 
+**Resources**
+* https://www.freeformatter.com/html-entities.html
+
 ## HTML5 Form Validation
 By default, many HTML5 form inputs include validation that is provided by the browser. In many cases the browser implemented messages are not desired and/or your application may have it's own validation and error messaging in place. In order to remove validation (and thereby the default browser messages) use the `novalidate` attribute on the containing form.
 ```html
