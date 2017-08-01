@@ -22,115 +22,7 @@ Done is better than perfect, and every project is different. That being said, it
 * Optimized
 * Accessible
 
-----------
 # HTML
-## Doctypes
-Use the HTML5 doctype.
-```html
-<!doctype html>
-```
-
-**Resources**
-* https://www.w3schools.com/tags/tag_doctype.asp
-
-## Encoding
-Use UTF-8 encoding. This meta tag should be the first element inside the document's `<head>` element.
-```html
-<meta charset="utf-8">
-```
-
-## HTML Entities
-Use appropriate HTML entity names or numbers for special characters.
-```html
-&copy; 2017 Gap Intelligence &amp; Herbie the Hedgehog &#8482;
-```
-
-**Resources**
-* https://www.freeformatter.com/html-entities.html
-
-## HTML5 Elements
-Use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
-
-**Resources**
-* http://caniuse.com
-
-## HTML5 Form Validation
-By default, many HTML5 form inputs include validation that is provided by the browser. In many cases the browser implemented messages are not desired and/or your application may have it's own validation and error messaging in place. In order to remove validation (and thereby the default browser messages) use the `novalidate` attribute on the containing form.
-```html
-<form action="#" method="post" novalidate>
-  <label for"email">Email Address:</label>
-  <input type="email" placeholder="Enter a valid email address" id="email">
-  <button type="submit">Submit</button>
-</form>
-```
-
-## Image Formats
-Know the pros/cons of each image format and use whatever best suits your needs. In general at Gap Intelligence we use:
-* .jpg
-* .png
-* .svg
-* .gif
-
-**Resources**
-* https://en.wikipedia.org/wiki/Image_file_formats
-
-## Semantic Markup
-Write clean, semantic markup that adds structure and clarity to the code. Just as important, it should also reinforce the meaning of the page content.
-```html
-<main>
-  <section class="about">
-    <article>
-      <h1>About Us</h1>
-      <p>We da shit, son.</p>
-    </article>
-  </section>
-</main>
-```
-
-**Resources**
-* http://www.hongkiat.com/blog/html-5-semantics
-* https://css-tricks.com/video-screencasts/100-lets-write-semantic-markup
-
-## Tables
-Tables should only be used for tabular data and never, ever used for page layouts. Below is standard markup for a table. The tags `<thead>` and `<tfoot>` can be omitted if the table doesn't have a header or footer.
-```html
-<table>
-  <thead>
-    <tr>
-      <th>Merchant</th>
-      <th>Product</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Amazon</td>
-      <td>15" Macbook Pro</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-## Type Attributes
-**HTML5 Doctype**
-When working with HTML5, the `type` attribute is no longer needed for stylesheets and scripts.
-```html
-<link rel="stylesheet" href="main.css">
-<script src="main.js">
-```
-**Legacy Doctypes**
-When working with doctypes older than HTML5, the `type` attribute is required.
-```html
-<link rel="stylesheet" href="main.css" type="text/css" />
-<script src="main.js" type="text/javascript" />
-```
-
-## W3C Validation
-* Write valid code.
-* Remaining errors and warnings should be intentional.
-
-**Resources**
-* http://validator.w3.org
-
 ## Boolean Attributes
 Boolean attributes should not have a value.
 ```html
@@ -171,17 +63,104 @@ Use standard HTML comments liberally to add structure and clarity to your code.
 <!-- End of main content -->
 ```
 
-## Indentation
-Use 2 spaces for indentation in your editor of choice.
+## Doctypes
+Use the HTML5 doctype.
+```html
+<!doctype html>
+```
+
+**Resources**
+* https://www.w3schools.com/tags/tag_doctype.asp
+
+## Encoding
+Use UTF-8 encoding. This meta tag should be the first element inside the document's `<head>` element.
+```html
+<meta charset="utf-8">
+```
+
+## HTML Entities
+Use appropriate HTML entity names or numbers for special characters.
+```html
+&copy; 2017 Gap Intelligence &amp; Herbie the Hedgehog &#8482;
+```
+
+**Resources**
+* https://www.freeformatter.com/html-entities.html
 
 ## HTML Templating Languages
 Always an HTML templating language like Slim, Haml, or Jade when possible. Ain't nobody got time to write standard HTML. It's time consuming and can be difficult to manage the closing of tags. Slim has been Gap Intelligence's language of choice because it processes slightly faster than it's competition, but if you feel something else works better for you, use it. Just be sure to run it by the backend team as they have to write HTML sometimes as well.
+
+## HTML5 Elements
+Use HTML5 elements where possible. Some such as `<canvas>` and `<video>` has limited browser support at this time. If you use elements with limited support, always be sure to include a fallback. If you're unsure about an elements support, use the resource below.
+
+**Resources**
+* http://caniuse.com
+
+## HTML5 Form Validation
+By default, many HTML5 form inputs include validation that is provided by the browser. In many cases the browser implemented messages are not desired and/or your application may have it's own validation and error messaging in place. In order to remove validation (and thereby the default browser messages) use the `novalidate` attribute on the containing form.
+```html
+<form action="#" method="post" novalidate>
+  <label for"email">Email Address:</label>
+  <input type="email" placeholder="Enter a valid email address" id="email">
+  <button type="submit">Submit</button>
+</form>
+```
+
+## Image Formats
+Know the pros/cons of each image format and use whatever best suits your needs. In general at Gap Intelligence we use:
+* .jpg
+* .png
+* .svg
+* .gif
+
+**Resources**
+* https://en.wikipedia.org/wiki/Image_file_formats
+
+## Indentation
+Use 2 spaces for indentation in your editor of choice.
 
 ## Quotes
 Use double quotes around attribute values.
 ```html
 <input type="text" class="search">
 ```
+
+## Semantic Markup
+Write clean, semantic markup that adds structure and clarity to the code. Just as important, it should also reinforce the meaning of the page content.
+```html
+<main>
+  <section class="about">
+    <article>
+      <h1>About Us</h1>
+      <p>We da shit, son.</p>
+    </article>
+  </section>
+</main>
+```
+
+**Resources**
+* http://www.hongkiat.com/blog/html-5-semantics
+* https://css-tricks.com/video-screencasts/100-lets-write-semantic-markup
+
+## Tables
+Tables should only be used for tabular data and never, ever used for page layouts. Below is standard markup for a table. The tags `<thead>` and `<tfoot>` can be omitted if the table doesn't have a header or footer.
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Merchant</th>
+      <th>Product</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amazon</td>
+      <td>15" Macbook Pro</td>
+    </tr>
+  </tbody>
+</table>
+```
+
 ## TODO Comments
 Mark todos and action items with a comment that includes `TODO`. Be sure that `TODO` is always uppercase.
 ```html
@@ -194,17 +173,39 @@ Mark todos and action items with a comment that includes `TODO`. Be sure that `T
 ## Trailing Whitespace
 Remove all trailing whitespace.
 
-# CSS
-## Encoding
-Do not include a `@charset` in the CSS.
-```css
-/* DO NOT */
-@charset "UTF-8";
+## Type Attributes
+**HTML5 Doctype**
+When working with HTML5, the `type` attribute is no longer needed for stylesheets and scripts.
+```html
+<link rel="stylesheet" href="main.css">
+<script src="main.js">
+```
+**Legacy Doctypes**
+When working with doctypes older than HTML5, the `type` attribute is required.
+```html
+<link rel="stylesheet" href="main.css" type="text/css" />
+<script src="main.js" type="text/javascript" />
+```
 
+## W3C Validation
+* Write valid code.
+* Remaining errors and warnings should be intentional.
+
+**Resources**
+* http://validator.w3.org
+
+# CSS
+## Brackets
+Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
+```css
 .selector {
-  color: #fff;
+  height: 100vh;
+  padding: 1em;
 }
 ```
+
+## Capitalization
+Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
 
 ## Classes and IDs
 Do not use `id` for styling purposes
@@ -230,43 +231,6 @@ Acceptable uses for `id` include:
 <section id="about"> ... </section>
 ```
 
-## Selector Specificity
-Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/) as low as possible, opting for a single class as the best selector.
-```sass
-/* Do this */
-.article__header--large {
-  font-size: 4em;
-  line-height: 1.6;
-}
-
-/* Don't do this shit */
-.article {
-  .header {
-    .large {
-      font-size: 4em;
-      line-height: 1.6;
-    }
-  }
-}
-
-/* Don't overquality selectors if not needed, it increases specificity. in the example below, the ul is not needed. */
-ul.list {
-  list-style: none;
-}
-```
-
-## Brackets
-Place the opening curly-bracket of each rule block on the same line as the last selector. Place the closing curly-bracket of each rule block on its own line after the final property of the rule block. End each property with a semicolon.
-```css
-.selector {
-  height: 100vh;
-  padding: 1em;
-}
-```
-
-## Capitalization
-Do not use capitalization, all classes and ids should be lowercase and delimited as [documented below](#name-delimiters).
-
 ## Comments and Grouping
 Group related rule blocks by base object using the standardized section comment style.
 ```css
@@ -290,6 +254,17 @@ If a property / value pair needs additional clarity or is not self-documenting, 
   background: transparent url("logo.png") 0 0 no-repeat;
   background-size: 50%;
   padding: 0 .5em;
+}
+```
+
+## Encoding
+Do not include a `@charset` in the CSS.
+```css
+/* DO NOT */
+@charset "UTF-8";
+
+.selector {
+  color: #fff;
 }
 ```
 
@@ -402,6 +377,31 @@ Separate each rule block with a line break.
 .selector-two {
   display: flex;
   margin: 1em;
+}
+```
+
+## Selector Specificity
+Keep selector [specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/) as low as possible, opting for a single class as the best selector.
+```sass
+/* Do this */
+.article__header--large {
+  font-size: 4em;
+  line-height: 1.6;
+}
+
+/* Don't do this shit */
+.article {
+  .header {
+    .large {
+      font-size: 4em;
+      line-height: 1.6;
+    }
+  }
+}
+
+/* Don't overquality selectors if not needed, it increases specificity. in the example below, the ul is not needed. */
+ul.list {
+  list-style: none;
 }
 ```
 
