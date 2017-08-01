@@ -155,7 +155,7 @@ Use BEM for class names. Prefix the parent class with `.b-`
 **States**
 
 Use the class prefix `.is-` as in `.is-active` `.is-hidden` `.is-open`. To style, tie it to a class using a Sass `&`
-```css
+```sass
 .selector {
   &.is-open {
     display: block;
@@ -231,7 +231,7 @@ Ain't nobody got time for that. Install the [Autoprefixer gem](https://github.co
 
 ## Multi-Value Properties
 Format multi-value properties by starting a new line for each value and indenting each line 2 spaces.
-```css
+```sass
 .selector {
   background: 
     transparent url("gay-bath-house.jpg") 0 0/cover no-repeat;
