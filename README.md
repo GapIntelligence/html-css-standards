@@ -28,8 +28,9 @@ Done is better than perfect, and every project is different. That being said, it
 ## W3C Validation
 * Write valid code.
 * Remaining errors and warnings should be intentional.
+
 **W3C Validator**
-[http://validator.w3.org]
+http://validator.w3.org
 
 # HTML Formatting
 ## Boolean Attributes
