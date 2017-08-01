@@ -46,6 +46,16 @@ Always use HTML5 elements where possible. Some such as `<canvas>` and `<video>` 
 **Resources**
 * http://caniuse.com/
 
+## HTML5 Form Validation
+By default, many HTML5 form inputs include validation that is provided by the browser. Error messages are on by default, though in many cases the browser implemented messages are not what a designer wants. In order to remove validation (and thereby the messages) use the `novalidate` attribute on the containing form.
+```html
+<form action="#" method="post" novalidate>
+<label for"email">Email Address:</label>
+  <input type="email" placeholder="Enter a valid email address" id="email">
+  <button type="submit">Submit</button>
+</form>
+```
+
 ## W3C Validation
 * Write valid code.
 * Remaining errors and warnings should be intentional.
