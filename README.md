@@ -35,25 +35,25 @@ Boolean attributes should not have a value.
 
 ## Capitalization
 Use only lowercase, unless it's for a string.
-```
+```html
 <img src="herbie.jpg" class="image" alt="Herbie, the gap intelligence mascot.">
 ```
 
 ## Closing Tags
 Any element with an opening tag needs a closing tag. 
-```
+```html
 <p>Close this paragraph tag.</p>
 ```
 With HTML5, the trailing slash on self-closing tags is now optional. If you're using HTML5, it's good practice not to use trailing slashes. No need to use code that's not needed.
 
 **No**
-```
+```html
 <img src="herbie.jpg" />
 <input type="text" />
 <br />
 ```
 **Yes**
-```
+```html
 <img src="herbie.jpg">
 <input type="text">
 <br>
@@ -64,7 +64,7 @@ Use 2 spaces for indentation in your editor of choice.
 
 ## Quotes
 Use double quotes around attribute values.
-```
+```html
 <input type="text" class="search">
 ```
 
@@ -74,7 +74,7 @@ Remove all trailing whitespace.
 # CSS Best Practices
 ## Encoding
 Do not include a `@charset` in the CSS.
-```
+```css
 /* DO NOT */
 @charset "UTF-8";
 
@@ -92,12 +92,12 @@ Acceptable uses for `id` include:
 - Assigning form labels to inputs
 - Jump links between sections of a page
 
-```
+```html
 <section class="jumbotron" id="js-jumbotron"> ... </section>
 ```
-```
+```html
 <label for="first-name">First Name</label>
-<input id="first-name" type="text" />
+<input id="first-name" type="text">
 ```
 ```
 <a href="#about">Skip to About section</a>
