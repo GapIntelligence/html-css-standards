@@ -307,8 +307,8 @@ Format multi-value properties by starting a new line for each value and indentin
 ```sass
 .selector {
   background: 
-    transparent url("gay-bath-house.jpg") 0 0/cover no-repeat;
-    transparent url("eugene-correia.png") 50% 25% no-repeat; 
+    transparent url("main-background.jpg") 0 0/cover no-repeat;
+    transparent url("overlay-background.png") 50% 25% no-repeat; 
 }
 ```
 
